@@ -1,0 +1,101 @@
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <título>Pasteleria Mexicana</título>
+    
+</cabeza>
+<cuerpo>
+    <encabezado>
+        <img src="imágenes/Logo.png" alt="Pasteleria Mexicana" class="cake">  
+        <nav class="menu2">
+            <a href=".. /index.html">Inicio</a>
+        </nav>
+    </encabezado> 
+
+    <p class="frases">Sea Bienvenid@ a su Pastelería Mexicana, donde los sabores son recuerdos</p>
+    <br>
+    <h2>Favor de llenar formulario, para atenderle como se merece</h2>
+   
+    <hr>
+    <br>
+
+    <form action="/accion.js" id="form1" method="post">
+        
+    <label for="nombre">Ingresar nombre y apellido</label>
+    <input type="text" id="nombre" name="nombre" class="input">
+    <br><br><br><br>
+    <label for="telefono">Número Telefónico</label>
+    <input type="tel" id="telefono" name="telefono" class="input">
+    <br><br><br>
+    <label for="correo">Correo electrónico</label>
+    <input type="email" id="correo" name="correo" class="input">
+    <br><br><br>
+    <label for="descripcion">Descripción del pastel que desea que elaboremos</label>
+    <textarea rows="3", cols="15" id="descripcion" name = "description" class="input"></textarea>
+    <br><br><br><br>
+    
+
+    <sección>
+        <h2>Seleccione los sabores</h2>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Estrudel de Manzana" class="check">
+        <label for="sabor1" class="seleccion">Estrudel de Manzana</label>
+        <br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Pan de Naranja" class="check">
+        <label for="sabor2" class="seleccion">Pan de Naranja</label>
+        <br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Pastel de Frutas" class="check">
+        <label for="sabor3" class="seleccion">Pastel de Frutas</label>
+        <br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Pay de Nuez" class="check">
+        <label for="sabor4" class="seleccion">Pay de Nuez</label>
+        <br>
+        <input type="checkbox" id="sabor5" name="sabor5" value="Pay de Queso" class="check">
+        <label for="sabor5" class="seleccion">Pay de Queso</label>
+        <br>
+        <input type="checkbox" id="sabor6" name="sabor6" value="Pasteles Especiales Keto" class="check">
+        <label for="sabor6" class="seleccion">Pasteles Especiales Keto</label>
+        <br>
+
+        
+
+        
+    </sección>
+    
+    <section class="selec3">
+        <h3>Seleccione los adorno que desee</h3>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Cobertura_chocolate" class="check">
+        <label for="adorno1" class="seleccion">Cobertura de chocolate</label>
+        <br>
+        <input type="checkbox" id="adorno2" name="sadorno2" value="Betun_vainilla" class="check">
+        <label for="adorno2" class="seleccion">Betún de vainilla</label>
+        <br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="Betun_chocolate" class="check">
+        <label for="adorno3" class="seleccion">Betún de chocolate</label>
+        <br>
+        <input type="checkbox" id="adorno4" name="adorno4" value="Betun_fresa" class="check">
+        <label for="adorno4" class="seleccion">Betún de fresa</label>
+        <br>
+        <input type="checkbox" id="adorno5" name="adorno5" value="Frutas adicionales" class="check">
+        <label for="adorno5" class="seleccion">Frutas adicionales</label>
+        <br>
+        
+    </sección>
+    <br><br><br>
+    <input type="reset" id="restablecer" name="restablecer" value="Restablecer"><br><br>
+    <input type="submit" id="enviar" name="enviar" value="Enviar" onclick="alert('Su pedido se ha enviado correctamente');" ><br>
+    </forma>
+
+    <hr>
+
+    <pie de página>
+
+        
+
+        <dl>
+            
+        </dl>
+    </pie de página>
+</cuerpo>
+</html>
